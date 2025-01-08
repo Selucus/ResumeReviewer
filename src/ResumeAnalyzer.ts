@@ -9,7 +9,7 @@ export class ResumeAnalyzer {
     this.resume = resumeText;
     this.sections = this.parseResumeSections(resumeText);
   }
-
+// test
   private parseResumeSections(text: string): { [key: string]: string } {
     const sections: { [key: string]: string } = {};
     const lines = text.split('\n');
